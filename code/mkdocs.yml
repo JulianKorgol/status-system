@@ -1,1 +1,4 @@
-site_name: My Docs
+site_name: Status System
+site_url: https://status-system.juliankorgol.com/
+theme:
+  name: material
