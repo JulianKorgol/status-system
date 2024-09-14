@@ -1,0 +1,38 @@
+name: "Docs Workflow"
+
+on:
+  push:
+    branches:
+      - "docs"
+  workflow_dispatch:
+
+jobs:
+  PublishDocs:
+    name: Deploy Docs on GitHub Pages
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Make Build
+        run: |
+          pip install -r requirements.txt
+          cd code
+          mkdocs build
+          rm -rf ../docs/
+          mv site ../docs/ 
+
+      - name: Push to repo
+        run: |
+          git config user.name "GitHub Workflow"
+          git config user.email no-reply@juliankorgol.com
+          git add docs/
+          git commit -m "Docs Workflow update"
+          git push
+
