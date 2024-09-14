@@ -29,7 +29,10 @@ jobs:
           cd code
           mkdocs build
           rm -rf ../docs/
-          mv site ../docs/ 
+          mv site ../docs/
+      
+      - name: Add CNAME file
+        run: echo "status-system.juliankorgol.com" > docs/CNAME
 
       - name: Push to repo
         run: |
