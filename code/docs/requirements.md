@@ -2,10 +2,6 @@
 
 Software requirements for the Open-Source Status System.
 
-## Table of Contents
-
-1. [Python](#Python)
-2. [Database](#Database)
 
 ## Python
 App require:
