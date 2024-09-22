@@ -1,17 +1,20 @@
-# Welcome to MkDocs
+# Home
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Software that allow anyone to create a status page for their services.
 
-## Commands
+---
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+**Documentation**: <a href="https://status-system.juliankorgol.com/" target="_blank">https://status-system.juliankorgol.com/</a><br>
+**GitHub Repository**: <a href="https://github.com/JulianKorgol/status-system" target="_blank">https://github.com/JulianKorgol/status-system</a>
 
-## Project layout
+---
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Features:
+
+* **TODO**: That section will be in the future
+
+[//]: # (## How to run the app)
+
+[//]: # (* `mkdocs new [dir-name]` - Create a new project.)
+[//]: # (* `mkdocs serve` - Start the live-reloading docs server.)
+[//]: # (* `mkdocs build` - Build the documentation site.)
