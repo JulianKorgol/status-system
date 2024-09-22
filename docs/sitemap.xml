@@ -2,6 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://status-system.juliankorgol.com/</loc>
-         <lastmod>2024-09-14</lastmod>
+         <lastmod>2024-09-22</lastmod>
+    </url>
+    <url>
+         <loc>https://status-system.juliankorgol.com/requirements/</loc>
+         <lastmod>2024-09-22</lastmod>
+    </url>
+    <url>
+         <loc>https://status-system.juliankorgol.com/about/</loc>
+         <lastmod>2024-09-22</lastmod>
     </url>
 </urlset>
