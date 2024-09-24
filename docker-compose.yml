@@ -1,0 +1,9 @@
+services:
+
+  jkstatussystem-db:
+    container_name: status-system_db
+    build:
+      context: .
+      dockerfile: compose/jkstatussystem-db/Dockerfile
+    ports:
+      - "3306:3306"
